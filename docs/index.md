@@ -62,9 +62,13 @@ public_mode_toggle: true
 
 | Name | Affiliation | Contact | Github |
 |---|---|---|---|
-| | | | |
-| | | | |
-
+|Zhuohong Li |Duke University |zhuohong.li@duke.edu | |
+|Rocky Talchabhadel | | | |
+|Theodore Harstook | | | |
+|Chris Turner | | | |
+|Jian Yang | | | |
+|Hari S. | | | |
+|Amelie Davis | | | |
 ## Team Norms and Decision Making { #team-norms-and-decision-making }
 
 !!! note "Day 1 task"
