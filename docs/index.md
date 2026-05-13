@@ -162,7 +162,7 @@ Methods/technologies we are testing:
 
 ### Visuals
 
-![Method or workflow visual](assets/figures/figure1.png)
+![Method or workflow visual](assets/images/group_12_whiteboard.jpg)
 
 ### Next Steps
 
