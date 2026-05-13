@@ -19,12 +19,7 @@ public_mode_toggle: true
     - If you turn off 'Instructions' then you will only see the page content for public display.
     
 
-# Team 12 Home
-
-!!! note "Day 1 directions"
-    Change the title to the name of your project.
-
-    [Edit Day 1 setup in Markdown](https://github.com/CU-ESIIL/Summit_group_2026_12/edit/main/docs/index.md?plain=1#L21){ .md-button target="_blank" rel="noopener" }
+# Echoes of the Earth: Mapping Landscape Analogues similarities and divergences to socioeconomic and climate data
 
 !!! tip "For ESIIL staff"
     Group Number: 12
