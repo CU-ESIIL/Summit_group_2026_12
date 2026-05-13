@@ -129,18 +129,15 @@ People who could use this:
 !!! note "data exploration"
     Provide a snapshot showing some initial data patterns. 
 
-    Add 2-4 promising data sources (links +1-line notes)    
-
 ![Exploration figure](assets/explorations/explore_data_plot.png)
 
-*Snapshot showing initial data patterns.*
+- City boundaries from [https://www.nature.com/articles/s41597-024-03746-7](https://figshare.com/projects/Greenspace_Seasonality_Data_Cube/190971)
+- [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
+- [Climate data](https://www.worldclim.org/data/worldclim21.html#google_vignette)
+- [Night-time light as a proxy for GDP and electricity use](https://doi.org/10.1038/s41597-022-01322-5)
+- [Global population data](https://www.eastview.com/resources/e-collections/landscan/)
 
-Promising data sources:
-
-- [Data source 1](#): ...
-- [Data source 2](#): ...
-- [Data source 3](#): ...
-- [Data source 4](#): ...
+Local copies of our project data are stored in the [Cyverse Data Store](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12)
 
 ## Methods/technologies we’re testing 📣 { #methods-and-code .oasis-report-out-section .oasis-report-out-day2 }
 
@@ -218,12 +215,6 @@ Long term:
 Who should see this next
 
 - ...
-
-## Data we're using
-- City boundaries from "GCTB : a high-resolution global annual city and town boundaries dataset (1985-2022) derived from GLC_FCS30D land cover product" https://zenodo.org/records/16418717
-- 1x1 deg grid MOSAIKs data from https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables
-- Climate data from https://www.worldclim.org/data/worldclim21.html#google_vignette
-- Night-time light as a proxy for GDP and electricity use from: https://doi.org/10.1038/s41597-022-01322-5
 
 ## Cite & Reuse { #cite-reuse }
 
