@@ -19,7 +19,7 @@ public_mode_toggle: true
     - If you turn off 'Instructions' then you will only see the page content for public display.
     
 
-# Team 12 Home: Make Me Your Own
+# Team 12 Home
 
 !!! note "Day 1 directions"
     Change the title to the name of your project.
@@ -43,7 +43,7 @@ public_mode_toggle: true
 |Zhuohong Li |Duke University |zhuohong.li@duke.edu | |
 |Rocky Talchabhadel | | | |
 |Theodore Harstook | University of Nevada, Reno | thartsook@unr.edu | theohartsook |
-|Chris Turner | | | |
+|Chris Turner | Aleut Community of St. Paul Island Tribal Government | cturner@aleut.com | iamchrisser |
 |Jian Yang | | | |
 |[Hari Sundar](https://github.com/CU-ESIIL/Innovation-Summit-2026/blob/main/docs/learners/hari-sundar.md)| National Lab of the Rockies| sriharisundar95@gmail.com | sriharisundar |
 |Amelie Davis | | | |
