@@ -1,5 +1,5 @@
 ---
-title: Earth Echoes
+title: Echoes of the Earth: Mapping Landscape Analogues similarities and divergences to socioeconomic and climate data
 public_mode_toggle: true
 ---
 
