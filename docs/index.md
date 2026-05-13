@@ -141,6 +141,13 @@ Local copies of our project data are stored in the [Cyverse Data Store](https://
     Ordination of the Earth Embeddings for our extracted cities and map the environmental variables (Climate and SES).
     Clustering
 
+### Visuals
+
+![Workflow diagram](assets/images/group12_workflow.png)
+
+![Method or workflow visual](assets/images/group_12_whiteboard.jpg)
+
+
 [View shared code](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/code){ .md-button }
 
 Methods/technologies we are testing:
@@ -149,16 +156,9 @@ Methods/technologies we are testing:
 |---|---|---|
 | ... | ... | ... |
 
-
 ### Challenges identified
 
 - ...
-
-### Visuals
-
-![Workflow diagram](assets/images/group12_workflow.png)
-
-![Method or workflow visual](assets/images/group_12_whiteboard.jpg)
 
 ### Next Steps
 
