@@ -34,18 +34,7 @@ public_mode_toggle: true
     [ESIIL staff edit in Markdown](https://github.com/CU-ESIIL/Summit_group_2026_12/edit/main/docs/index.md?plain=1#L28){ .md-button target="_blank" rel="noopener" }
     
 
-![Team hero image](assets/hero/hero.png)
-
-!!! note "How to replace the image above"
-    Upload an image that represents your project and welcome people to your page. 
-    
-    Upload your own image to `docs/assets/hero/` and replace the file named `hero.png`. Use a wide image if you can, then refresh the site preview to check how it looks.
-    Keep the file path `docs/assets/hero/hero.png` if you want the Markdown above to keep working.
-
-    [Open image folder for changing image](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/docs/assets/hero){ .md-button target="_blank" rel="noopener" }
-
-
-[See a completed example](example.md){ .md-button }
+![Team hero image](assets/hero/IMG_2728.jpg)
 
 ## People { #people .oasis-report-out-context }
 
@@ -67,8 +56,9 @@ public_mode_toggle: true
 |Theodore Harstook | | | |
 |Chris Turner | | | |
 |Jian Yang | | | |
-|Hari S. | | | |
+|[Hari Sundar](https://github.com/CU-ESIIL/Innovation-Summit-2026/blob/main/docs/learners/hari-sundar.md)| National Lab of the Rockies| sriharisundar95@gmail.com | sriharisundar |
 |Amelie Davis | | | |
+
 ## Team Norms and Decision Making { #team-norms-and-decision-making }
 
 !!! note "Day 1 task"
