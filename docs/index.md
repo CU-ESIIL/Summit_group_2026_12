@@ -172,9 +172,9 @@ Long term:
     [Edit content below here in Markdown](https://github.com/CU-ESIIL/Summit_group_2026_12/edit/main/docs/index.md?plain=1#L203){ .md-button target="_blank" rel="noopener" }
 
 
-## Team Photo { #team-photo }
+## Team Photo, Again! { #team-photo }
 
-![Team photo](assets/team/team_photo.jpg)
+![Team photo](assets/images/group12_photo2.png)
 
 *Team members and collaborators who contributed to this project.*
 
