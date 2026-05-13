@@ -174,7 +174,7 @@ Long term:
 
 ## Team Photo, Again! { #team-photo }
 
-![Team photo](assets/images/group12_photo2.png)
+![Team photo](assets/images/group12_photo2.jpg)
 
 *Team members and collaborators who contributed to this project.*
 
@@ -194,9 +194,7 @@ Headline 3 — implication for practice or policy
 
 ## Visuals that tell a story 📣 { #story-visuals .oasis-report-out-section .oasis-report-out-day3 }
 
-![Story visual](assets/figures/main_result.png)
-
-*Visual 1: the main pattern or output we want people to remember.*
+Coming soon.
 
 ## What’s next? 📣 { #whats-next .oasis-report-out-section .oasis-report-out-day3 }
 
