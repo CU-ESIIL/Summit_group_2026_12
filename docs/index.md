@@ -72,12 +72,12 @@ public_mode_toggle: true
 Our team norms:
 
 - Our group will use LLM derived generative-AI tools freely for code generation and debugging, and for editing our original text. We will not use AI tools for writing new text.
-- ...
-- ...
+- Be kind. Don't interrupt. 
+- We will always use area-preserving map projections!
 
 Our decision making strategy:
 
-...
+We'll support good ideas with a thumbs up. Thumbs down from two group members is enough to veto an idea or approach. 
 
 ## Our product(s) 📣 { #product-direction .oasis-report-out-section .oasis-report-out-day2 }
 
@@ -218,6 +218,12 @@ Long term:
 Who should see this next
 
 - ...
+
+## Data we're using
+- City boundaries from "GCTB : a high-resolution global annual city and town boundaries dataset (1985-2022) derived from GLC_FCS30D land cover product" https://zenodo.org/records/16418717
+- 1x1 deg grid MOSAIKs data from https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables
+- Climate data from https://www.worldclim.org/data/worldclim21.html#google_vignette
+- Night-time light as a proxy for GDP and electricity use from: https://doi.org/10.1038/s41597-022-01322-5
 
 ## Cite & Reuse { #cite-reuse }
 
