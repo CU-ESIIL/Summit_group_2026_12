@@ -42,12 +42,12 @@ public_mode_toggle: true
 |---|---|---|---|
 |Zhuohong Li |Duke University |zhuohong.li@duke.edu | |
 |Rocky Talchabhadel | | | |
-|Theodore Harstook | | | |
+|Theodore Harstook | University of Nevada, Reno | thartsook@unr.edu | theohartsook |
 |Chris Turner | | | |
 |Jian Yang | | | |
 |[Hari Sundar](https://github.com/CU-ESIIL/Innovation-Summit-2026/blob/main/docs/learners/hari-sundar.md)| National Lab of the Rockies| sriharisundar95@gmail.com | sriharisundar |
 |Amelie Davis | | | |
-|Isaac Buabeng | | | |
+|Isaac Buabeng | University of Vermont, Burlington | isaac.buabeng@uvm.edu | ikb001 |
 
 ## Team Norms and Decision Making { #team-norms-and-decision-making }
 
