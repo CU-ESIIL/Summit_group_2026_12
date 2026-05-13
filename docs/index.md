@@ -59,6 +59,7 @@ public_mode_toggle: true
 |Jian Yang | | | |
 |[Hari Sundar](https://github.com/CU-ESIIL/Innovation-Summit-2026/blob/main/docs/learners/hari-sundar.md)| National Lab of the Rockies| sriharisundar95@gmail.com | sriharisundar |
 |Amelie Davis | | | |
+|Isaac Buabeng | | | |
 
 ## Team Norms and Decision Making { #team-norms-and-decision-making }
 
@@ -82,7 +83,7 @@ public_mode_toggle: true
 
 Our team norms:
 
-- ...
+- Our group will use LLM derived generative-AI tools freely for code generation and debugging, and for editing our original text. We will not use AI tools for writing new text.
 - ...
 - ...
 
