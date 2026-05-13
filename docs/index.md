@@ -153,16 +153,15 @@ Methods/technologies we are testing:
 | Method or technology | What we tested | Early note |
 |---|---|---|
 | ... | ... | ... |
-| ... | ... | ... |
-| ... | ... | ... |
-| ... | ... | ... |
+
 
 ### Challenges identified
 
 - ...
-- ...
 
 ### Visuals
+
+![Workflow diagram](assets/images/group12_workflow.png)
 
 ![Method or workflow visual](assets/images/group_12_whiteboard.jpg)
 
