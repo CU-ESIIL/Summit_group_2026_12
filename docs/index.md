@@ -1,5 +1,5 @@
 ---
-title: Team Home
+title: Earth Echoes
 public_mode_toggle: true
 ---
 
@@ -105,18 +105,19 @@ Long term:
 
 Our working question:
 
-...
+Can the similaries and divergences in the land cover signature from Earth Embeddings be explained by socio-economic and climate data? How do cities accross the globe echo each other's urban signature and when do they vary the most? Is proximity a good indicator of similarity or are ecoregions, climate, socioeconomic data more important?
 
 What would count as progress:
 
-...
+Complete our workflow for a subset of the world's largest global cities as proof of concept. 
 
 ## Hypotheses/Intentions [Optional: probably not relevant if you are creating an educational tool]
 
+There a cities on 
 
 ## Why this matters (the “upshot”) 📣 { #why-this-matters .oasis-report-out-section .oasis-report-out-day2 }
 
-This matters because:
+This matters because it might help find sister cities and learn from their mistakes and successes in how they deal with urban development (urbanization) issues, economic development, congestion?, greenspace allotment (several small, "one" large), etc.
 
 ...
 
@@ -128,8 +129,6 @@ People who could use this:
 
 !!! note "data exploration"
     Provide a snapshot showing some initial data patterns. 
-
-![Exploration figure](assets/explorations/explore_data_plot.png)
 
 - City boundaries from [https://www.nature.com/articles/s41597-024-03746-7](https://figshare.com/projects/Greenspace_Seasonality_Data_Cube/190971)
 - [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
@@ -143,6 +142,9 @@ Local copies of our project data are stored in the [Cyverse Data Store](https://
 
 !!! note "methods"
     Add 2-4 methods/technologies we're testing (stats, models, viz).
+    Extract Earth Embedding, climate and SES data for cities. 
+    Ordination of the Earth Embeddings for our extracted cities and map the environmental variables (Climate and SES).
+    Clustering
 
 [View shared code](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/code){ .md-button }
 
