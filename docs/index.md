@@ -132,7 +132,7 @@ People who could use this:
 - City boundaries from [https://www.nature.com/articles/s41597-024-03746-7](https://figshare.com/projects/Greenspace_Seasonality_Data_Cube/190971)
 - [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
 - [Climate data from WorldClim](https://www.worldclim.org/data/worldclim21.html#google_vignette)
-- [Global population data from Oak Ridge National Lab](https://www.eastview.com/resources/e-collections/landscan/)
+- [Global population data from Oak Ridge National Lab](https://landscan.ornl.gov/)
 - [GDP data from ORNL] (https://www.earthdata.nasa.gov/data/catalog/ornl-cloud-gdp-xdeg-974-1)
 - MAYBE (if GDP or pop data don't cooperate for some reason): [Night-time light as a proxy for GDP and electricity use](https://doi.org/10.1038/s41597-022-01322-5)
 
