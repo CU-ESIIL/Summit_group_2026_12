@@ -86,7 +86,8 @@ Local copies of our project data are stored in the [Cyverse Data Store](https://
     
 Workflow so far:
 
-- Select 30 cities based on 1028 of the world's global cities according to https://www.nature.com/articles/s41597-024-03746-7#Sec8.
+- Select 30 cities based on 1028 of the world's global cities with data from:
+    >Wu, S., Song, Y., An, J. et al. High-resolution greenspace dynamic data cube from Sentinel-2 satellites over 1028 global major cities. Sci Data 11, 909 (2024). https://doi.org/10.1038/s41597-024-03746-7
 - Download Earth Embedding (EE), climate and SES data for select cities. 
 - Check coordinate systems for all data. Project if needed.
 - Extract EE, climate and SES data for select cities. 
@@ -102,12 +103,6 @@ Workflow so far:
 ![Workflow diagram](assets/images/group12_workflow2.png)
 
 ![Cosine Clustering](assets/images/cosine_clustering.png)
-
-![KNN clusters](assets/images/cluster_top5_each_continent.png)
-
-<iframe src="assets/figures/clusters_map.html" width="100%" height="560" style="border:0;"></iframe>
-
-![Cluster Visualization](assets/images/cities_with_clusters.png)
 
 [View shared code](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/code){ .md-button }
 
@@ -126,7 +121,13 @@ Methods/technologies we are testing:
 
 Short term: 
 
+1. 
+2. 
+
 Long term: 
+
+1. 
+2. 
 
 !!! note "Day 3 Tasks"
     Sythesis: highlight 2-3 visuals that tell the story; keep text crisp. Practice a 6-minute walkthrough of the homepage. Why -> Questions -> Data/Methods -> Findings -> Next 
@@ -153,7 +154,9 @@ Headline 3 — implication for practice or policy
 
 ## Visuals that tell a story 📣 { #story-visuals .oasis-report-out-section .oasis-report-out-day3 }
 
-Coming soon.
+<iframe src="assets/figures/clusters_map.html" width="100%" height="560" style="border:0;"></iframe>
+
+![Cluster Visualization](assets/images/cities_with_clusters.png)
 
 ## What’s next? 📣 { #whats-next .oasis-report-out-section .oasis-report-out-day3 }
 
