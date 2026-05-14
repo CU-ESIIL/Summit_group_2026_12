@@ -2333,3 +2333,49 @@ Actions taken
 Verification
 
 * Ran `node --check docs/javascripts/presentation-mode.js`; passed.
+
+2026-05-14
+
+Prompt
+
+User asked to create a notebook to interactively visualize the cities in `top5_by_continent.geojson` and the clustering of points in `all_clusters.geojson` with hvplot.
+
+Files inspected
+
+* workflows/output/top5_by_continent.geojson
+* workflows/output/all_clusters.geojson
+* workflows/code/cluster_process.ipynb
+
+Actions taken
+
+* Added `workflows/code/visualize_clusters.ipynb` with a global hvplot map overlaying KNN cluster points (colored by `cluster_knn`) on the top-5-by-continent city footprints over a CartoLight basemap.
+* Added a per-city Panel `Select` widget that zooms to the chosen city's bounding box and shows the polygon plus nearby cluster points using `GeoDataFrame.cx`.
+* Cast `cluster_knn` to string so hvplot uses a categorical `Category10` colormap.
+
+Verification
+
+* Inspected both GeoJSON files to confirm schema (`cluster_knn` on points; `Continent`, `top5_by_continent_Level_0`, `top5_by_continent_Level_2`, `urbanArea` on city polygons) and CRS (`CRS84`).
+* Confirmed the notebook JSON is well-formed.
+
+2026-05-14
+
+Prompt
+
+User asked to rework `workflows/code/extract_city_embeddings.ipynb` so it downloads Mosaiks embeddings from Redivis for every city in the input GeoDataFrame to a separate file, and iterated on parallelism, streaming, and trial-mode knobs.
+
+Files inspected
+
+* workflows/code/extract_city_embeddings.ipynb
+* Redivis Python client source (`redivis-python/src/redivis/classes/Query.py` and `common/TabularReader.py` via the GitHub API) to confirm `to_arrow_batch_iterator()` exists and that it waits for the server-side query to finish before yielding batches.
+
+Actions taken
+
+* Replaced the single-city query cell with a loop over `gdf`, reprojecting geometry to EPSG:4326 so `geometry.bounds` lines up with the table's `lon`/`lat` columns, and writing one `mosaiks_<UID>.parquet` per city under `mosaiks_city_embeddings/` with a restartable skip-if-exists check.
+* Briefly explored a `ThreadPoolExecutor` (4 workers) version, then reverted to a sequential loop at the user's request once we established that I/O concurrency was not the dominant cost.
+* Switched the write path from `df.to_parquet` to a true streaming pipeline: `query.to_arrow_batch_iterator(progress=True)` feeding a `pyarrow.parquet.ParquetWriter`, with `X_*` embedding columns cast to `float32`, snappy compression, and atomic `.tmp` → final rename so a crash mid-write cannot leave a half-written file that the skip-check would treat as complete.
+* Added trial knobs (`N_FEATURES`, `TRIAL_CITIES`) so the SQL can pull a subset of `X_i` columns for a single city before being scaled up.
+
+Verification
+
+* Diagnosed the user's `APIError: Unrecognized name: lon` by confirming via screenshot that the table schema does include `lon`/`lat` and flagging the unpinned dataset reference (`mosaiks` vs the qualified `mosaiks:8bqm`) as the likely drift source.
+* Explained that no `.tmp` file appears during the multi-minute Redivis query phase because `to_arrow_batch_iterator` blocks on `_wait_for_finish` (verified in the client source) before yielding the first batch.
