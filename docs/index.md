@@ -45,7 +45,7 @@ Our decision making strategy:
 We'll support good ideas with a thumbs up. Thumbs down from two group members is enough to veto an idea or approach. 
 
 
-## Our question(s) 📣 { #project-question .oasis-report-out-section .oasis-report-out-day2 }
+## Our question(s) { #project-question .oasis-report-out-section .oasis-report-out-day2 }
 
 Our working questions:
 
@@ -61,7 +61,7 @@ What would count as progress:
 
 TBD
 
-## Why this matters (the “upshot”) 📣 { #why-this-matters .oasis-report-out-section .oasis-report-out-day2 }
+## Why this matters (the “upshot”) { #why-this-matters .oasis-report-out-section .oasis-report-out-day2 }
 
 This matters because it might help find sister cities and learn from their mistakes and successes in how they deal with urban development (urbanization) issues, economic development, congestion?, greenspace allotment (several small, "one" large), etc.
 
@@ -71,7 +71,7 @@ People who could use this:
 - city managers,
 - other researchers needing those aggregated data
 
-## Data sources we’re exploring 📣 { #data-exploration .oasis-report-out-section .oasis-report-out-day2 }
+## Data sources we’re exploring  { #data-exploration .oasis-report-out-section .oasis-report-out-day2 }
 
 - City boundaries from [https://www.nature.com/articles/s41597-024-03746-7](https://figshare.com/projects/Greenspace_Seasonality_Data_Cube/190971)
 - [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
@@ -82,7 +82,7 @@ People who could use this:
 
 Local copies of our project data are stored in the [Cyverse Data Store](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12)
 
-## Methods/technologies we’re testing 📣 { #methods-and-code .oasis-report-out-section .oasis-report-out-day2 }
+## Methods/technologies we’re testing { #methods-and-code .oasis-report-out-section .oasis-report-out-day2 }
     
 Workflow so far:
 
@@ -103,8 +103,6 @@ Workflow so far:
 ![Workflow diagram](assets/images/group12_workflow2.png)
 
 ![Cosine Clustering](assets/images/cosine_clustering.png)
-
-![KNN clusters](assets/images/cluster_top5_each_continent.png)
 
 <iframe src="assets/figures/clusters_map.html" width="100%" height="560" style="border:0;"></iframe>
 
@@ -144,27 +142,30 @@ Long term:
 
 *Team members and collaborators who contributed to this project.*
 
-## Findings at a glance 📣 { #findings-at-a-glance .oasis-report-out-section .oasis-report-out-day3 }
+## Findings at a glance { #findings-at-a-glance .oasis-report-out-section .oasis-report-out-day3 }
 
-Headline 1 — what, where, how much
+ - 10 clusters was sufficient for KNN clustering
 
-...
+![number of clusters](assets/images/k_elbow.png)
 
-Headline 2 — change/trend/contrast
-
+ - KNN clustering verified using ...
+![other clustering](assets/images/NMDS_fit%20(1).png)
+![other other](assets/images/)
 ...
 
 Headline 3 — implication for practice or policy
 
 ...
 
-## Visuals that tell a story 📣 { #story-visuals .oasis-report-out-section .oasis-report-out-day3 }
+## Visuals that tell a story { #story-visuals .oasis-report-out-section .oasis-report-out-day3 }
 
 <iframe src="assets/figures/clusters_map.html" width="100%" height="560" style="border:0;"></iframe>
 
+<iframe src="assets/images/Chicago_leaflet.html" width="100%" height="560" style="border:0;"></iframe>
+
 ![Cluster Visualization](assets/images/cities_with_clusters.png)
 
-## What’s next? 📣 { #whats-next .oasis-report-out-section .oasis-report-out-day3 }
+## What’s next? { #whats-next .oasis-report-out-section .oasis-report-out-day3 }
 
 Short term:
 
