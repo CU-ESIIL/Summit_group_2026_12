@@ -106,7 +106,7 @@ Workflow so far:
 
 ![KNN clusters](assets/images/cluster_top5_each_continent.png)
 
-<iframe src="assets/figures/clusters_map.html" width="80%" height="560" style="border:0;"></iframe>
+<iframe src="assets/figures/clusters_map.html" width="100%" height="560" style="border:0;"></iframe>
 
 ![Cluster Visualization](assets/images/cities_with_clusters.png)
 
