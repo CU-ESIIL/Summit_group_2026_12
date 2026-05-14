@@ -5,7 +5,7 @@ public_mode_toggle: true
 ---
 
 
-# Echoes of the Earth: Mapping Landscape Analogues similarities and divergences to socioeconomic and climate data
+# Echoes of the Earth: Mapping Landscape Analogues to socioeconomic and climate data
 
 !!! tip "For ESIIL staff"
     Group Number: 12
