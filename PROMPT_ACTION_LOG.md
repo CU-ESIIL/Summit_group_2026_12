@@ -1,5 +1,28 @@
 Prompt Action Log
 
+2026-05-14
+
+Prompt
+
+User asked to open each city parquet file and crop the pixels to the actual city shapes from the city_bounding_box GeoJSON.
+
+Files and folders inspected
+
+* [`crop_city_pixels.py`](workflows/code/crop_city_pixels.py)
+* `workflows/code/city_embeddings/`
+* `workflows/code/city_embeddings_cropped/`
+* `/data-store/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12/city_bounding_box_half_km.geojson`
+
+Actions taken
+
+* Created [`crop_city_pixels.py`](workflows/code/crop_city_pixels.py:1) to read each `mosaiks_{UID}.parquet`, build `shapely.Point` geometries from `lon`/`lat`, filter with `.within()` against the reprojected city `MultiPolygon`, and write cropped results to `city_embeddings_cropped/` with float32 embeddings preserved.
+* Processed all 30 city parquet files.
+
+Verification
+
+* Confirmed 30 cropped files produced with identical 4005-field schemas.
+* Total rows reduced from 209,640 to 84,261 (40.2% retention), with per-city retention ranging from 23.3% to 64.6%.
+
 YYYY-MM-DD
 
 Prompt
