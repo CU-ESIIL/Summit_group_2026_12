@@ -74,6 +74,7 @@ People who could use this:
 ## Data sources we’re exploring  { #data-exploration .oasis-report-out-section .oasis-report-out-day2 }
 
 - City boundaries from:
+
     >Wu, S., Song, Y., An, J. et al. High-resolution greenspace dynamic data cube from Sentinel-2 satellites over 1028 global major cities. Sci Data 11, 909 (2024). https://doi.org/10.1038/s41597-024-03746-7
 - [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
 - [Climate data from WorldClim](https://www.worldclim.org/data/worldclim21.html#google_vignette)
