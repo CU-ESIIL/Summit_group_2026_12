@@ -144,14 +144,15 @@ Local copies of our project data are stored in the [Cyverse Data Store](https://
     Add 2-4 methods/technologies we're testing (stats, models, viz).
     
 Workflow so far:
- - Select X cities based on Y.
- - Download Earth Embedding (EE), climate and SES data for select cities. 
- - Check coordinate systems for all data. Project if needed.
- - Extract EE, climate and SES data for select cities. 
- - Cluster EE features extracted for our cities.
- - Conduct independent ordination on the EE clusters and map the environmental variables (Climate and SES) to it.
- - Color points in ordination space based on ecoregion or continent or country.
- - Size points in ordination space based on actual distance to the most similar tile that is NOT within its city's boundary.
+
+- Select X cities based on Y.
+- Download Earth Embedding (EE), climate and SES data for select cities. 
+- Check coordinate systems for all data. Project if needed.
+- Extract EE, climate and SES data for select cities. 
+- Cluster EE features extracted for our cities.
+- Conduct independent ordination on the EE clusters and map the environmental variables (Climate and SES) to it.
+- Color points in ordination space based on ecoregion or continent or country.
+- Size points in ordination space based on actual distance to the most similar tile that is NOT within its city's boundary.
 
 
 ### Visuals
