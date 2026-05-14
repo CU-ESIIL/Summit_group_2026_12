@@ -47,24 +47,6 @@ public_mode_toggle: true
 
 ## Team Norms and Decision Making { #team-norms-and-decision-making }
 
-!!! note "Day 1 task"
-
-    Suggested Self-Facilitation Instructions:
-    
-    - Round Robin: Everyone shares 1 norm that they think will be important for their team during the Summit and perhaps following the Summit (2 min).
-
-    - After everyone has shared, make a list with as many norms as possible in GitHub (5–7 min).
-
-    - Vote on your top 3 ideas. (Each person gets 3 votes; you can use all your votes on 1 idea or spread them out) (2 min).
-
-    - In GitHub, move all team norms with votes to the top of the list.
-
-    | Gradients of agreement | 
-    |---|
-    | ![Gradients of agreement scale for Summit teams](assets/hero/norms.png) | 
-
-    [Edit Team Norms in Markdown](https://github.com/CU-ESIIL/Summit_group_2026_12/edit/main/docs/index.md?plain=1#L87){ .md-button target="_blank" rel="noopener" }
-
 Our team norms:
 
 - Our group will use LLM derived generative-AI tools freely for code generation and debugging, and for editing our original text.
@@ -78,13 +60,6 @@ Our decision making strategy:
 We'll support good ideas with a thumbs up. Thumbs down from two group members is enough to veto an idea or approach. 
 
 ## Our product(s) 📣 { #product-direction .oasis-report-out-section .oasis-report-out-day2 }
-
-!!! note "Day 2 Tasks"
-    Morning Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes)
-
-    Afternoon Focus: try a few datasets and analyses. Keep it visual, keep it simple. Update the site to reflect what you test. 
-
-    [Edit content below here in Markdown](https://github.com/CU-ESIIL/Summit_group_2026_12/edit/main/docs/index.md?plain=1#L106){ .md-button target="_blank" rel="noopener" }
 
 Short term:
 
@@ -110,9 +85,9 @@ What would count as progress:
 
 Complete our workflow for a subset of the world's largest global cities as proof of concept. 
 
-## Hypotheses/Intentions [Optional: probably not relevant if you are creating an educational tool]
+## Hypotheses/Intentions 
 
-There a cities on 
+TBD
 
 ## Why this matters (the “upshot”) 📣 { #why-this-matters .oasis-report-out-section .oasis-report-out-day2 }
 
@@ -125,9 +100,6 @@ People who could use this:
 - other researchers needing those aggregated data
 
 ## Data sources we’re exploring 📣 { #data-exploration .oasis-report-out-section .oasis-report-out-day2 }
-
-!!! note "data exploration"
-    Provide a snapshot showing some initial data patterns. 
 
 - City boundaries from [https://www.nature.com/articles/s41597-024-03746-7](https://figshare.com/projects/Greenspace_Seasonality_Data_Cube/190971)
 - [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
@@ -144,14 +116,15 @@ Local copies of our project data are stored in the [Cyverse Data Store](https://
     Add 2-4 methods/technologies we're testing (stats, models, viz).
     
 Workflow so far:
- - Select X cities based on Y.
- - Download Earth Embedding (EE), climate and SES data for select cities. 
- - Check coordinate systems for all data. Project if needed.
- - Extract EE, climate and SES data for select cities. 
- - Cluster EE features extracted for our cities.
- - Conduct independent ordination on the EE clusters and map the environmental variables (Climate and SES) to it.
- - Color points in ordination space based on ecoregion or continent or country.
- - Size points in ordination space based on actual distance to the most similar tile that is NOT within its city's boundary.
+
+- Select X cities based on Y.
+- Download Earth Embedding (EE), climate and SES data for select cities. 
+- Check coordinate systems for all data. Project if needed.
+- Extract EE, climate and SES data for select cities. 
+- Cluster EE features extracted for our cities.
+- Conduct independent ordination on the EE clusters and map the environmental variables (Climate and SES) to it.
+- Color points in ordination space based on ecoregion or continent or country.
+- Size points in ordination space based on actual distance to the most similar tile that is NOT ithin its city's boundary.
 
 
 ### Visuals
@@ -159,7 +132,6 @@ Workflow so far:
 ![Workflow diagram](assets/images/group12_workflow.png)
 
 ![Method or workflow visual](assets/images/group_12_whiteboard.jpg)
-
 
 [View shared code](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/code){ .md-button }
 
@@ -181,9 +153,6 @@ Long term:
 
 !!! note "Day 3 Tasks"
     Sythesis: highlight 2-3 visuals that tell the story; keep text crisp. Practice a 6-minute walkthrough of the homepage. Why -> Questions -> Data/Methods -> Findings -> Next 
-
-    [Edit content below here in Markdown](https://github.com/CU-ESIIL/Summit_group_2026_12/edit/main/docs/index.md?plain=1#L203){ .md-button target="_blank" rel="noopener" }
-
 
 ## Team Photo, Again! { #team-photo }
 
