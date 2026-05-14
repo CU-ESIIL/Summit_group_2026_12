@@ -124,8 +124,7 @@ Workflow so far:
 - Cluster EE features extracted for our cities.
 - Conduct independent ordination on the EE clusters and map the environmental variables (Climate and SES) to it.
 - Color points in ordination space based on ecoregion or continent or country.
-- Size points in ordination space based on actual distance to the most similar tile that is NOT ithin its city's boundary.
-
+- Size points in ordination space based on actual distance to the most similar tile that is NOT within its city's boundary.
 
 ### Visuals
 
