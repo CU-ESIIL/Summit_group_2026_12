@@ -22,10 +22,10 @@ public_mode_toggle: true
 | Name | Affiliation | Contact | Github |
 |---|---|---|---|
 |Zhuohong Li |Duke University |zhuohong.li@duke.edu | |
-|Rocky Talchabhadel | | | |
+|Rocky Talchabhadel | Jackson State University | | |
 |Theodore Harstook | University of Nevada, Reno | thartsook@unr.edu | theohartsook |
 |Chris Turner | Aleut Community of St. Paul Island Tribal Government | cturner@aleut.com | iamchrisser |
-|Jian Yang | | | |
+|Jian Yang | University of Kentucky | jian.yang@uky.edu | |
 |[Hari Sundar](https://github.com/CU-ESIIL/Innovation-Summit-2026/blob/main/docs/learners/hari-sundar.md)| National Lab of the Rockies| sriharisundar95@gmail.com | sriharisundar |
 |Amelie Davis | |davis dot amelie at gmail | AmsPurdue |
 |Isaac Buabeng | University of Vermont, Burlington | isaac.buabeng@uvm.edu | ikb001 |
@@ -73,7 +73,8 @@ People who could use this:
 
 ## Data sources we’re exploring  { #data-exploration .oasis-report-out-section .oasis-report-out-day2 }
 
-- City boundaries from [https://www.nature.com/articles/s41597-024-03746-7](https://figshare.com/projects/Greenspace_Seasonality_Data_Cube/190971)
+- City boundaries from:
+    >Wu, S., Song, Y., An, J. et al. High-resolution greenspace dynamic data cube from Sentinel-2 satellites over 1028 global major cities. Sci Data 11, 909 (2024). https://doi.org/10.1038/s41597-024-03746-7
 - [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
 - [Climate data from WorldClim](https://www.worldclim.org/data/worldclim21.html#google_vignette)
 - [Global population data from Oak Ridge National Lab](https://landscan.ornl.gov/)
@@ -86,8 +87,7 @@ Local copies of our project data are stored in the [Cyverse Data Store](https://
     
 Workflow so far:
 
-- Select 30 cities based on 1028 of the world's global cities with data from:
-    >Wu, S., Song, Y., An, J. et al. High-resolution greenspace dynamic data cube from Sentinel-2 satellites over 1028 global major cities. Sci Data 11, 909 (2024). https://doi.org/10.1038/s41597-024-03746-7
+- Select 30 cities based on 1028 of the world's global cities with data from the Scientific Data article.
 - Download Earth Embedding (EE), climate and SES data for select cities. 
 - Check coordinate systems for all data. Project if needed.
 - Extract EE, climate and SES data for select cities. 
@@ -97,13 +97,13 @@ Workflow so far:
 - Size points in ordination space based on actual distance to the most similar tile that is NOT within its city's boundary.
 
 ### Visuals
-
+#### Brainstorming!
 ![Method or workflow visual](assets/images/group_12_whiteboard.jpg)
 
 ![Workflow diagram](assets/images/group12_workflow2.png)
-
+#### Cosine Clustering
 ![Cosine Clustering](assets/images/cosine_clustering.png)
-
+#### KNN Clustering
 ![Cluster Visualization](assets/images/cities_with_clusters.png)
 
 [View shared code](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/code){ .md-button }
@@ -114,10 +114,13 @@ Methods/technologies we are testing:
 |---|---|---|
 | Cosine clustering | cluster 1028 cities | ... |
 | KNN Clustering | cluster 5 largest cities from each continent, K = 10 | K = 10 is good. Explanation TBD |
+| ... | ... | ... | ... |
 
 ### Challenges identified
 
-- 
+- Data volumes
+- Different workflows/preferred tools (Python vs R)
+- Cyberinfrastructure learning curve
 
 ### Next Steps
 
@@ -143,11 +146,11 @@ Long term:
 
 ## Findings at a glance { #findings-at-a-glance .oasis-report-out-section .oasis-report-out-day3 }
 
- - 10 clusters was sufficient for KNN clustering
+ - 10 clusters appears to be sufficient for KNN clustering for our subset of cities (n = 30)
 
 ![number of clusters](assets/images/k_elbow.png)
 
- - KNN clustering verified using ordination
+ - KNN clustering approach appears to be validated using ordination
 ![other clustering](assets/images/NMDS_fit%20(1).png)
 ![other other](assets/images/NMDS_Chicago.png)
 
@@ -163,15 +166,17 @@ Long term:
 
 Short term:
 
-- ...
+- Celebrate our luck at having such a great team!
+- Finish correlations with socio-economic data
+- Investigate correlations with climate and topographic data
+- Develop formal research question
 
 Long term:
 
-- ...
+- Repeat analysis using larger sample (~1000 cities)
+- Write a paper about our work
+- Use Earth embeddings in our daily work.
 
-Who should see this next
-
-- ...
 
 ## Cite & Reuse { #cite-reuse }
 
