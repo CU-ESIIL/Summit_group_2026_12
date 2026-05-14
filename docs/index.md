@@ -4,21 +4,6 @@ subtitle: Mapping Landscape Analogues to Socioeconomic and Climate Data
 public_mode_toggle: true
 ---
 
-!!! tip "How to use this page during the Summit"
-    - This page is your team’s shared workspace and final report-out page. It captures your group’s process and thinking throughout the Summit and will be used to share your work with others. 
-    
-    - Use this page as your team’s working record during the Summit and your final report-out.
-    
-    - The Summit has several different goals and thus you will use the page differently each day: Day 1 is for alignment, Day 2 is for building one useful thing, and Day 3 is for synthesis and report- out.
-    
-    - Look for the green buttons to indicate what you need to edit. 
-    
-    - Megaphones 📣 indicate which items you will be presenting during the end-of-day report-outs.
-
-    - Only the items with megaphones will be visible when you hit the 'Summit Report Out' button. 
-
-    - If you turn off 'Instructions' then you will only see the page content for public display.
-    
 
 # Echoes of the Earth: Mapping Landscape Analogues similarities and divergences to socioeconomic and climate data
 
@@ -59,20 +44,6 @@ Our decision making strategy:
 
 We'll support good ideas with a thumbs up. Thumbs down from two group members is enough to veto an idea or approach. 
 
-## Our product(s) 📣 { #product-direction .oasis-report-out-section .oasis-report-out-day2 }
-
-Short term:
-
-...
-
-Long term:
-
-- ...
-- ...
-
-![Day 2 morning whiteboard or notes photo](assets/whiteboards/day2_morning_whiteboard.svg)
-
-*Morning whiteboard or notes showing the question, hypotheses, and context we used to start Day 2.*
 
 ## Our question(s) 📣 { #project-question .oasis-report-out-section .oasis-report-out-day2 }
 
@@ -83,7 +54,7 @@ Our working questions:
 
 What would count as progress:
 
-Complete our workflow for a subset of the world's largest global cities as proof of concept. 
+    Complete our workflow for a subset of the world's largest global cities as proof of concept. 
 
 ## Hypotheses/Intentions 
 
@@ -111,19 +82,16 @@ People who could use this:
 Local copies of our project data are stored in the [Cyverse Data Store](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12)
 
 ## Methods/technologies we’re testing 📣 { #methods-and-code .oasis-report-out-section .oasis-report-out-day2 }
-
-!!! note "methods"
-    Add 2-4 methods/technologies we're testing (stats, models, viz).
     
 Workflow so far:
 
-- Select X cities based on Y.
+- Select 30 cities based on 1028 of the world's global cities according to https://www.nature.com/articles/s41597-024-03746-7#Sec8.
 - Download Earth Embedding (EE), climate and SES data for select cities. 
 - Check coordinate systems for all data. Project if needed.
 - Extract EE, climate and SES data for select cities. 
 - Cluster EE features extracted for our cities.
 - Conduct independent ordination on the EE clusters and map the environmental variables (Climate and SES) to it.
-- Color points in ordination space based on ecoregion or continent or country.
+- Color points in ordination space based on ecoregion or continent or country or Global N/S.
 - Size points in ordination space based on actual distance to the most similar tile that is NOT within its city's boundary.
 
 ### Visuals
