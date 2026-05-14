@@ -42,7 +42,7 @@ public_mode_toggle: true
 |Chris Turner | Aleut Community of St. Paul Island Tribal Government | cturner@aleut.com | iamchrisser |
 |Jian Yang | | | |
 |[Hari Sundar](https://github.com/CU-ESIIL/Innovation-Summit-2026/blob/main/docs/learners/hari-sundar.md)| National Lab of the Rockies| sriharisundar95@gmail.com | sriharisundar |
-|Amelie Davis | | | |
+|Amelie Davis | |davis dot amelie at gmail | AmsPurdue |
 |Isaac Buabeng | University of Vermont, Burlington | isaac.buabeng@uvm.edu | ikb001 |
 
 ## Team Norms and Decision Making { #team-norms-and-decision-making }
@@ -67,8 +67,10 @@ public_mode_toggle: true
 
 Our team norms:
 
-- Our group will use LLM derived generative-AI tools freely for code generation and debugging, and for editing our original text. We will not use AI tools for writing new text.
-- Be kind. Don't interrupt. 
+- Our group will use LLM derived generative-AI tools freely for code generation and debugging, and for editing our original text.
+- Our group will not use AI tools for writing new text.
+- Be kind.
+- Don't interrupt. 
 - We will always use area-preserving map projections!
 
 Our decision making strategy:
@@ -99,9 +101,10 @@ Long term:
 
 ## Our question(s) 📣 { #project-question .oasis-report-out-section .oasis-report-out-day2 }
 
-Our working question:
-
-Can the similaries and divergences in the land cover signature from Earth Embeddings be explained by socio-economic and climate data? How do cities accross the globe echo each other's urban signature and when do they vary the most? Is proximity a good indicator of similarity or are ecoregions, climate, socioeconomic data more important?
+Our working questions:
+1) Can the similaries and divergences in the land cover signature from Earth Embeddings be explained by socio-economic and climate data? 
+2) How do cities accross the globe echo each other's urban signature and where do they vary the most (both within and between cities)? 
+3) Is proximity a good indicator of similarity or are ecoregions, climate, socioeconomic data more important?
 
 What would count as progress:
 
@@ -115,11 +118,11 @@ There a cities on
 
 This matters because it might help find sister cities and learn from their mistakes and successes in how they deal with urban development (urbanization) issues, economic development, congestion?, greenspace allotment (several small, "one" large), etc.
 
-...
-
 People who could use this:
 
-...
+- urban planners,
+- city managers,
+- other researchers needing those aggregated data
 
 ## Data sources we’re exploring 📣 { #data-exploration .oasis-report-out-section .oasis-report-out-day2 }
 
@@ -128,9 +131,10 @@ People who could use this:
 
 - City boundaries from [https://www.nature.com/articles/s41597-024-03746-7](https://figshare.com/projects/Greenspace_Seasonality_Data_Cube/190971)
 - [MOSAIKs data](https://sdss.redivis.com/datasets/8bqm-8efrp0kqg/tables)
-- [Climate data](https://www.worldclim.org/data/worldclim21.html#google_vignette)
-- [Night-time light as a proxy for GDP and electricity use](https://doi.org/10.1038/s41597-022-01322-5)
-- [Global population data](https://www.eastview.com/resources/e-collections/landscan/)
+- [Climate data from WorldClim](https://www.worldclim.org/data/worldclim21.html#google_vignette)
+- [Global population data from Oak Ridge National Lab](https://www.eastview.com/resources/e-collections/landscan/)
+- [GDP data from ORNL] (https://www.earthdata.nasa.gov/data/catalog/ornl-cloud-gdp-xdeg-974-1)
+- MAYBE (if GDP or pop data don't cooperate for some reason): [Night-time light as a proxy for GDP and electricity use](https://doi.org/10.1038/s41597-022-01322-5)
 
 Local copies of our project data are stored in the [Cyverse Data Store](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12)
 
@@ -138,9 +142,17 @@ Local copies of our project data are stored in the [Cyverse Data Store](https://
 
 !!! note "methods"
     Add 2-4 methods/technologies we're testing (stats, models, viz).
-    Extract Earth Embedding, climate and SES data for cities. 
-    Ordination of the Earth Embeddings for our extracted cities and map the environmental variables (Climate and SES).
-    Clustering
+    
+    Workflow so far:
+    - Select X cities based on Y.
+    - Download Earth Embedding (EE), climate and SES data for select cities. 
+    - Check coordinate systems for all data. Project if needed.
+    - Extract EE, climate and SES data for select cities. 
+    - Cluster EE features extracted for our cities.
+    - Conduct independent ordination on the EE clusters and map the environmental variables (Climate and SES) to it.
+    - Color points in ordination space based on ecoregion or continent or country.
+    - Size points in ordination space based on actual distance to the most similar tile that is NOT within its city's boundary.
+
 
 ### Visuals
 
