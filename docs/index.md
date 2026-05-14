@@ -104,8 +104,6 @@ Workflow so far:
 
 ![Cosine Clustering](assets/images/cosine_clustering.png)
 
-<iframe src="assets/figures/clusters_map.html" width="100%" height="560" style="border:0;"></iframe>
-
 ![Cluster Visualization](assets/images/cities_with_clusters.png)
 
 [View shared code](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/code){ .md-button }
@@ -119,19 +117,20 @@ Methods/technologies we are testing:
 
 ### Challenges identified
 
-- ...
+- 
 
 ### Next Steps
 
 Short term: 
 
-1. 
-2. 
+1. Finish socio-economic correlation with embeddings
+2. Examine correlation with climate variables
 
 Long term: 
 
-1. 
-2. 
+1. Include more cities in sample
+2. Consider including topographic data in analysis
+3. Craft the story that illustrates the value of Earth embedding data to understand spatial signatures.
 
 !!! note "Day 3 Tasks"
     Sythesis: highlight 2-3 visuals that tell the story; keep text crisp. Practice a 6-minute walkthrough of the homepage. Why -> Questions -> Data/Methods -> Findings -> Next 
@@ -148,14 +147,9 @@ Long term:
 
 ![number of clusters](assets/images/k_elbow.png)
 
- - KNN clustering verified using ...
+ - KNN clustering verified using ordination
 ![other clustering](assets/images/NMDS_fit%20(1).png)
-![other other](assets/images/)
-...
-
-Headline 3 — implication for practice or policy
-
-...
+![other other](assets/images/NMDS_Chicago.png)
 
 ## Visuals that tell a story { #story-visuals .oasis-report-out-section .oasis-report-out-day3 }
 
