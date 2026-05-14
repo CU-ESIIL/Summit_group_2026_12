@@ -48,9 +48,10 @@ We'll support good ideas with a thumbs up. Thumbs down from two group members is
 ## Our question(s) 📣 { #project-question .oasis-report-out-section .oasis-report-out-day2 }
 
 Our working questions:
-1) Can the similaries and divergences in the land cover signature from Earth Embeddings be explained by socio-economic and climate data? 
-2) How do cities accross the globe echo each other's urban signature and where do they vary the most (both within and between cities)? 
-3) Is proximity a good indicator of similarity or are ecoregions, climate, socioeconomic data more important?
+
+1. Can the similaries and divergences in the land cover signature from Earth Embeddings be explained by socio-economic and climate data? 
+2. How do cities accross the globe echo each other's urban signature and where do they vary the most (both within and between cities)? 
+3. Is proximity a good indicator of similarity or are ecoregions, climate, socioeconomic data more important?
 
 What would count as progress:
 
@@ -96,9 +97,15 @@ Workflow so far:
 
 ### Visuals
 
-![Workflow diagram](assets/images/group12_workflow.png)
-
 ![Method or workflow visual](assets/images/group_12_whiteboard.jpg)
+
+![Workflow diagram](assets/images/group12_workflow2.png)
+
+![Cosine Clustering](assets/images/cosine_clustering.png)
+
+![KNN clusters](assets/images/cluster_top5_each_continent.png)
+
+![Cluster Visualization](assets/images/cities_with_clusters.png)
 
 [View shared code](https://github.com/CU-ESIIL/Summit_group_2026_12/tree/main/code){ .md-button }
 
@@ -106,7 +113,8 @@ Methods/technologies we are testing:
 
 | Method or technology | What we tested | Early note |
 |---|---|---|
-| ... | ... | ... |
+| Cosine clustering | cluster 1028 cities | ... |
+| KNN Clustering | cluster 5 largest cities from each continent, K = 10 | K = 10 is good. Explanation TBD |
 
 ### Challenges identified
 
