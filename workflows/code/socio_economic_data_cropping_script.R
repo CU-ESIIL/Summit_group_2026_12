@@ -1,13 +1,13 @@
 # Description: This file was written to help us crop our socio-economic data to our city boundaries.
 
 
-# load in socio-economic data
+# load in city boundaries
 city_boundaries <- st_read("/data-store/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12/top5_by_continent (1).geojson")
 
 # Specify the directory path to socio-econ data files
 socioecon_dat <- "/data-store/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12/socio/landscan-global-2019.tif"
 
-# Read climate data
+# Read socio-econ data
 socioecon_dat_raster <- rast(socioecon_dat)
 
 # crop socio-econ data to city boundaries
