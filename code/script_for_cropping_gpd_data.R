@@ -30,3 +30,22 @@ for (file in gdp_files) {
   # Save the cropped climate data
   writeRaster(cropped_gdp_data, paste0("cropped_", basename(file)))
 }
+
+#check projections
+onefile <- rast("/data-store/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12/gdp_data/cropped_2019GDP.tif")
+onefile
+#plot(onefile)
+ofile <- rast("/data-store/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12/gdp_data/2019GDP.tif")
+ofile
+#plot(ofile)
+same.crs(onefile, ofile) # good there
+# View the spatial extent (xmin, xmax, ymin, ymax) for each raster
+ext(onefile)
+ext(ofile)
+dim(onefile) # this is the problem
+dim(ofile)
+
+
+# did we need the lines above?
+# can I instead just use the points we already extracted and have R sample the gdp data at those points
+# try this here
