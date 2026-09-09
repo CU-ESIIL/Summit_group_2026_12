@@ -4,20 +4,21 @@
 # load the necessary libraries
 library(terra)
 library(sf)
-library(geodata)
 library(tidyverse)
-
+install.packages("geodata")
+library(geodata)
 
 # subset gdp data to city polygons
 ## Load city boundaries
-city_boundaries <- st_read("C:/Users/User/Downloads/top5_by_continent.geojson")
+#city_boundaries <- st_read("C:/Users/User/Downloads/top5_by_continent.geojson")
+city_boundaries <- st_read("/data-store/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12/top5_by_continent.geojson")
 
 ## Specify the directory path to gdp data files
-gdp_dir <- "C:/Users/User/Downloads/Real GDP/"
+gdp_dir <- "/data-store/iplant/home/shared/esiil/Innovation_Summit_2026/Group_12/gdp_data"
 
 ## Get a list of gdp data files
 gdp_files <- dir(gdp_dir, pattern = "*.tif", full.names = TRUE)
-
+gdp_files
 # Loop through each climate datafile in climate_files
 for (file in gdp_files) {
   # Read climate data
