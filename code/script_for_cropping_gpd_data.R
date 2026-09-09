@@ -84,9 +84,10 @@ pts_sf <- st_as_sf(EE_pts, coords = c("lon", "lat"), crs = 4326)
 pts_p <- st_transform(pts_sf, crs = crs(ofile))
 
 # 3. Extract the raster values for these points
+### TODO Fix ERROR. I get an error here that I don't know how to fix
 extracted_vals <- terra::extract(ofile, pts_p)
 
-# 4. (Optional) Combine the extracted values back with your original data
+# 4. Combine the extracted values back with your original data
 EE_pts_with_gdp <- cbind(EE_pts, extracted_vals)
 
 head(EE_pts_with_gdp)
